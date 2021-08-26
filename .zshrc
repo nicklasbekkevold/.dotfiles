@@ -65,6 +65,7 @@ alias \
 
 alias c=clear
 eval $(thefuck --alias)
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # --------- Plugins ---------
 source ~/.zplug/init.zsh
