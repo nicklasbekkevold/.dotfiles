@@ -1,5 +1,7 @@
 [user]
-	email = 44287251+nicklasbekkevold@users.noreply.github.com
-	name = Nicklas Bekkevold
+        name = 44287251+nicklasbekkevold@users.noreply.github.com
+        email = nicklasbekkevold@gmail.com
+[pull]
+        rebase = true
 [core]
-	editor = vim
+        editor = code --wait
