@@ -1,10 +1,10 @@
 [user]
-        name = Nicklas Bekkevold
-        email = 44287251+nicklasbekkevold@users.noreply.github.com
-        signingkey = 50E0C34F6F48AA29
+    name = Nicklas Bekkevold
+    email = 44287251+nicklasbekkevold@users.noreply.github.com
+    signingkey = 50E0C34F6F48AA29
 [pull]
-        rebase = true
+    rebase = true
 [core]
-        editor = code --wait
+    editor = code --wait
 [init]
 	defaultBranch = main
