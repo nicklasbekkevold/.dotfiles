@@ -65,8 +65,8 @@ alias \
 
 # Custom stuff
 alias c=clear
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias gitf = "git add -A; git commit --amend --no-edit; git push --force-with-lease"
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias gitf="git add -A; git commit --amend --no-edit; git push --force-with-lease"
 eval $(thefuck --alias)
 
 # --------- Plugins ---------
