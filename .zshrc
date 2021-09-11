@@ -63,6 +63,14 @@ alias \
         diff="diff --color=auto" \
         ccat="highlight --out-format=ansi"
 
+# Python 
+alias python=python3
+alias pip=pip3
+alias vc='python -m venv venv' # venv create
+alias va='source venv/bin/activate' # venv activate
+alias vd='deactivate' # venv deactivate
+
+
 # Custom stuff
 alias c=clear
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
