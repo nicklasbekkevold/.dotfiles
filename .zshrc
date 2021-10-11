@@ -66,6 +66,8 @@ alias \
 # Python 
 alias python=python3
 alias pip=pip3
+alias pi='pip install -r requirements.txt' # pip install
+alias pf='pip freeze > requirements.txt' # pip freeze
 alias vc='python -m venv venv' # venv create
 alias va='source venv/bin/activate' # venv activate
 alias vd='deactivate' # venv deactivate
