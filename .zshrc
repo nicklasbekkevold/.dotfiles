@@ -69,7 +69,7 @@ alias pip=pip3
 alias pi='pip install -r requirements.txt' # pip install
 alias pf='pip freeze > requirements.txt' # pip freeze
 alias pu='python -m pip install --upgrade pip' # pip upgrade
-alias vc='python -m venv venv; pu' # venv create
+alias vc='python -m venv venv; va; pu' # venv create; venv activate; pip upgrade
 alias va='source venv/bin/activate' # venv activate
 alias vd='deactivate' # venv deactivate
 
