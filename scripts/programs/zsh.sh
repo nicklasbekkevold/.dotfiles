@@ -3,7 +3,8 @@
 # ZSH
 echo "Installing ZSH..."
 
-# TODO: Add prompt installation
+# Prompt installation
+sudo npm install -g spaceship-prompt
 
 # Install zplug
 curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
