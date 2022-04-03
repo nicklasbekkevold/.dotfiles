@@ -19,6 +19,7 @@ install zsh
 install nmap
 install openvpn
 install npm
+install curl
 
 # Fun stuff
 install sl
