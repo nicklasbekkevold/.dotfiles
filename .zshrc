@@ -52,9 +52,7 @@ alias \
         bc="bc -ql" \
         mkd="mkdir -pv" \
         yt="youtube-dl --add-metadata -i" \
-        yta="yt -x -f bestaudio/best" \
-        ffmpeg="ffmpeg -hide_banner" \
-        gitf="git add -A; git commit --amend --no-edit; git push --force-with-lease"
+        yta="yt -x -f bestaudio/best"
 
 # Colorize commands when possible.
 alias \
@@ -78,6 +76,7 @@ alias vd='deactivate' # venv deactivate
 alias c=clear
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias gitf="git add -A; git commit --amend --no-edit; git push --force-with-lease"
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 eval $(thefuck --alias)
 
 # --------- Plugins ---------
