@@ -1,10 +1,6 @@
 # Set up the prompt
 fpath=($fpath "/home/nicklas/.zfunctions")
 
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
-
 setopt histignorealldups sharehistory
 
 # Use emacs keybindings even if our EDITOR is set to vi
@@ -85,6 +81,7 @@ source ~/.zplug/init.zsh
 # Plugins
 zplug "hlissner/zsh-autopair", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
+zplug "spaceship-prompt/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 
 # Syntax highlighting (must be loaded last!)
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
