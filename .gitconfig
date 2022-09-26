@@ -1,7 +1,9 @@
 [user]
-        name = 44287251+nicklasbekkevold@users.noreply.github.com
-        email = nicklasbekkevold@gmail.com
+        name = Nicklas Bekkevold
+        email = 44287251+nicklasbekkevold@users.noreply.github.com
 [pull]
         rebase = true
 [core]
         editor = code --wait
+[init]
+	defaultBranch = main
