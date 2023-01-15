@@ -20,6 +20,7 @@ install nmap
 install openvpn
 install npm
 install curl
+install gnupg
 
 # Fun stuff
 install sl
