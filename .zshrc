@@ -81,7 +81,7 @@ source ~/.zplug/init.zsh
 # Plugins
 zplug "hlissner/zsh-autopair", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
-zplug "spaceship-prompt/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
+zplug "denysdovhan/spaceship-zsh-theme", use:spaceship.zsh, from:github, as:theme
 
 # Syntax highlighting (must be loaded last!)
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
