@@ -1,9 +1,14 @@
 [user]
-        name = Nicklas Bekkevold
-        email = 44287251+nicklasbekkevold@users.noreply.github.com
+    name = Nicklas Bekkevold
+    email = 44287251+nicklasbekkevold@users.noreply.github.com
+    signingkey = 9CD3482BF453CA56
 [pull]
-        rebase = true
+    rebase = true
 [core]
-        editor = code --wait
+    editor = nano
+[commit]
+    gpgsign = true
 [init]
-	defaultBranch = main
+    defaultBranch = main
+[filter "spacify"]
+    clean = expand --tabs=4 --initial
