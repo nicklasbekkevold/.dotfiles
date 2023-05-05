@@ -96,6 +96,11 @@ fi
 
 zplug load
 
+# --------- PATH ---------
+export PATH="/home/nicklas/.local/bin:$PATH"
+
+# --------- Wierd stuff ---------
+
 # Turn off power status when using spaceship prompt
 export SPACESHIP_BATTERY_SHOW=false
 
