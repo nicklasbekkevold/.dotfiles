@@ -81,7 +81,7 @@ source ~/.zplug/init.zsh
 # Plugins
 zplug "hlissner/zsh-autopair", defer:2
 zplug "zsh-users/zsh-autosuggestions", defer:2
-zplug "denysdovhan/spaceship-zsh-theme", use:spaceship.zsh, from:github, as:theme
+zplug "spaceship-prompt/spaceship-prompt", use:spaceship.zsh, from:github, as:theme
 
 # Syntax highlighting (must be loaded last!)
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
@@ -103,6 +103,7 @@ export PATH="/home/nicklas/.local/bin:$PATH"
 
 # Turn off power status when using spaceship prompt
 export SPACESHIP_BATTERY_SHOW=false
+export SPACESHIP_PROMPT_ASYNC=false
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
