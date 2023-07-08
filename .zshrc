@@ -73,7 +73,6 @@ alias c=clear
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias gitf="git add -A; git commit --amend --no-edit; git push --force-with-lease"
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-eval $(thefuck --alias)
 
 # --------- Plugins ---------
 source ~/.zplug/init.zsh
@@ -105,6 +104,10 @@ export PATH="/home/nicklas/.local/bin:$PATH"
 export SPACESHIP_BATTERY_SHOW=false
 export SPACESHIP_PROMPT_ASYNC=false
 
+# thefuck alias
+eval $(thefuck --alias)
+
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
